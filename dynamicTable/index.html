@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+<title>dynamic Table</title>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<form id="myForm">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="Name"><br><br>
+    <label for = "age">Age</label>
+    <input type="number" id="age" name="Age"><br><br>
+    <button type="button" onClick ="addRow()" >Submit</button>
+</form>
+   <table class = table id="myTable" >
+    <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+    </thead>
+    <tbody id="myBody">
+    </tbody>
+   </table>
+</body>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Table Population</title>
+<style>
+    body {
+        background-color: #f0f0f0; /* Change this to the desired background color */
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    
+    /* Styles for the form */
+    #myForm {
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center; /* Center align the contents of the form */
+    }
+
+    #myForm label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #myForm input[type="text"],
+    #myForm input[type="number"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        text-align: center; /* Center align the text within the input fields */
+    }
+
+    #myForm button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px; /* Adjust the border-radius value as needed */
+    }
+
+    #myForm button:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+
+<form id="myForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age">
+    <button type="button" onclick="addRow()">Submit</button>
+</form>
+
+<table id="myTable" style="float: left;">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody">
+    </tbody>
+</table>
+
+<script>
+function addRow() {
+    var name = document.getElementById("name").value;
+    var age = document.getElementById("age").value;
+    var tableBody = document.getElementById("tableBody");
+    var newRow = tableBody.insertRow();
+    var cell1 = newRow.insertCell(0);
+    var cell2 = newRow.insertCell(1);
+    cell1.textContent = name;
+    cell2.textContent = age;
+}
+</script>
+
+</body>
+</html> -->

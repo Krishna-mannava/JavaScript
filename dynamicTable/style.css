@@ -1,0 +1,44 @@
+body {
+    background-color: #f0f0f0; /* Change this to the desired background color */
+}
+#myForm{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+#myForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+#myForm input[type="text"],
+#myForm input[type="number"] {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+#myForm button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#myForm button:hover {
+    background-color: #45a049;
+}
+table{
+    margin-top: 20px;
+    border-collapse:collapse;
+    width : 50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+th, td{
+    border: 1px solid;
+    text-align: center;
+    padding: 8px;
+}

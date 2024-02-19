@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+<title>Flames</title>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<form id="myForm">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="Name"><br><br>
+    <label for = "sname">Partner Name</label>
+    <input type="text" id="sname" name="SName"><br><br>
+    <div class="button-container">
+    <button type="button" onClick ="save(event)" >check</button>
+    <button type="button" onClick ="savedResults()" >Saved Results</button>
+    <button type = "button" onClick = "resetData()" >Reset Data</button>
+    </div>
+    <p><span id="flamesResult"></span></p>
+</form>
+    
+    <table class = table id="myTable" >
+    <thead id="myHead">
+    </thead>
+    <tbody id="myBody">
+    </tbody>
+   </table>
+</body>
+</html>
